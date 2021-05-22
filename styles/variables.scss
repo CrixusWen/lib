@@ -1,0 +1,37 @@
+@import './theme.scss';
+
+// 全局变量
+$bg: $--bg-color-base-dark-2;
+$text_color: $--font-color-base;
+
+// header高度
+$header_height: 60px;
+// header背景色
+$header_bg: $--bg-color-base-light-1;
+// sidebar宽度
+$sidebar_width: 210px;
+// sidebar背景色
+$sidebar_bg: $--bg-color-base-light-1;
+// logo背景色
+$logo_bg: $--bg-color-base-dark-4;
+
+// menu
+$menu_bg: $--bg-color-base;
+$menu_text_color: $--font-color-secondary;
+$menu_active_text_color: $--font-color-primary;
+
+$menu_hover: $--bg-color-base-light-1;
+
+// 导出，供js模块调用
+:export {
+  bg: $bg;
+  text_color: $text_color;
+  header_height: $header_height;
+  sidebar_width: $sidebar_width;
+  header_bg: $header_bg;
+  logo_bg: $logo_bg;
+  menu_bg: $menu_bg;
+  menu_text_color: $menu_text_color;
+  menu_active_text_color: $menu_active_text_color;
+  menu_hover: $menu_hover;
+}

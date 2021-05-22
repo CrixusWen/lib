@@ -1,0 +1,49 @@
+/* 主题颜色，编译会进行注入，全局可用 */
+
+// 背景色 500为中间色，<500以为暖色，>500为冷色
+$--bg-color-base-light-3: #165488;
+$--bg-color-base-light-2: #164773;
+$--bg-color-base-light-1: #144871;
+$--bg-color-base: #114066; // 主色
+$--bg-color-base-dark-1: #0c3757;
+$--bg-color-base-dark-3: #0a3659;
+$--bg-color-base-dark-2: #0f304f; // 底色
+$--bg-color-base-dark-4: #113556;
+
+// 字体基础颜色
+$--font-color-base: #ffffff; // 基础颜色默认白色
+$--font-color-primary: #3daeff; // 字体主色
+$--font-color-secondary: #aac5e1; // 字体次色，用于label等地方
+// 辅助色
+$--font-color-info: #909abf; // info,用于提示信息
+
+// 字体大小
+$--font-size-small: 12px;
+$--font-size-base: 14px;
+$--font-size-medium: 16px;
+$--font-size-large: 18px;
+
+// 字体粗细
+$--font-weight-light: 300;
+$--font-weight-base: 400;
+$--font-weight-medium: 500;
+$--font-weight-bold: 700;
+
+// 圆角
+$--border-radius-small: 2px;
+$--border-radius-base: 4px;
+$--border-radius-medium: 6px;
+$--border-radius-large: 8px;
+$--border-radius-circle: 100%;
+
+// padding
+$--padding-small: 8px;
+$--padding-base: 16px;
+$--padding-medium: 24px;
+$--padding-large: 32px;
+
+// margin
+$--margin-small: 8px;
+$--margin-base: 16px;
+$--margin-medium: 24px;
+$--margin-large: 32px;
