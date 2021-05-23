@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      pdfSrc: 'pdf-url',
+      pdfSrc: 'PDFURL',
       titleName: 'test',
     }
   },
